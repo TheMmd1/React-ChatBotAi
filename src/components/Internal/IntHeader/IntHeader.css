@@ -1,0 +1,51 @@
+.intHeader {
+    display: flex;
+    justify-content: space-between;
+    width:  428px;
+    height: 64px;
+    margin: auto;
+    border: 0px 0px 1.5px 0px;
+}
+
+.intHeader .nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav .menuIcon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.nav .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 25.63px;
+}
+
+.nav h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 6px;
+
+}
+
+.intHeader .export {
+    display: flex;
+    align-items: center;
+}
+
+.intHeader .export img{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+ 

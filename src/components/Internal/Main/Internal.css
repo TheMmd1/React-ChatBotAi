@@ -1,0 +1,15 @@
+.internalMainContainer {
+    width:  428px;
+    height: 858px;
+    padding: 24px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.internalContent {
+    width: 428px;
+    border-top: 1px solid #EBEDEC;
+    margin: auto;
+    margin-top: 10px;
+}

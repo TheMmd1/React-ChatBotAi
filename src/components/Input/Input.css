@@ -1,0 +1,14 @@
+
+input {
+    border: 1px solid #EBEDEC;
+    border-radius: 16px;
+    font-family: SF Pro Rounded;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616161;
+  }
+  

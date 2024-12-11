@@ -1,0 +1,103 @@
+.main-cont-login {
+    width: 428px;
+    padding: 64px 32px 64px 32px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-login .content h1 {
+    font-family: Bricolage Grotesque;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.main-login .content img {
+    width: 64px;
+    height: 64px;
+    border-radius: 41px;
+}
+
+.main-login .content p {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616161;
+}
+
+
+.main-login .content a {
+    text-decoration: none;
+    color: #01CD98;
+    padding-left: 5px;
+}
+
+.main-login .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs input {
+    width: 398px;
+    height:  56px;
+    padding: 0px 16px 0px 16px;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.inputs a {
+    font-family: SF Pro Rounded;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #01CD98;
+    margin-bottom: 24px;
+}
+
+.inputs button {
+    width: 364px;
+    height: 56px;
+    margin: auto;
+}
+
+.inputs p {
+    font-family: SF Pro Rounded;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616161;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+.otherLogin {
+    display: flex;
+    width:  364px;
+    height: 56px;
+    gap: 16px;
+    justify-content: center;
+    margin: auto;
+}

@@ -1,0 +1,26 @@
+.sendMessageDiv {
+    width:  428px;
+    height: 92px;
+    padding: 12px 24px 24px 24px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: auto;
+}
+
+.sendMessageDiv input {
+    width:  312px;
+    height: 56px;
+    padding-left: 10px;
+}
+
+.sendMessageDiv button {
+    width: 56px;
+    height: 56px;
+}
+
+.sendMessageDiv button img {
+    margin-left: -7px;
+    margin-top: -2px;
+}

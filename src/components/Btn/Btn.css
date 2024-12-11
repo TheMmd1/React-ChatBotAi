@@ -1,0 +1,22 @@
+button {
+    padding: 18px 24px 18px 24px;
+    gap: 8px;
+    border-radius: 36px;
+    border: none;
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btn-g {
+  color: white;
+  background-color: #01CD98;
+}
+
+.btn-gray {
+  background-color: #6464641F;
+  color: black;
+}
