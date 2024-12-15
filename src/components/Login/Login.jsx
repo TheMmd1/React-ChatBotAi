@@ -4,6 +4,7 @@ import "./login.css";
 import logo from "../../assets/images 1.png"
 import Btn from '../Btn/Btn';
 import Input from '../Input/Input';
+import { NavLink } from 'react-router';
 
 const Login = () => {
   return (
@@ -18,7 +19,9 @@ const Login = () => {
           <Input  type="text" placeholder="Email"/>
           <Input  type="password" placeholder="Password"/>
           <a>Forgot Password?</a>
-          <Btn ClassCss = "btn-g" val="Login" />
+          <NavLink to={'/Home'}>  
+                   <Btn ClassCss = "btn-g" val="Login" />
+          </NavLink>
           <p>Or login with</p>
         </div>
         <div className="otherLogin">
