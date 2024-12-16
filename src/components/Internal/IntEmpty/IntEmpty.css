@@ -1,0 +1,20 @@
+.suggestionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.intHeading {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}

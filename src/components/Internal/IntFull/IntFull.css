@@ -1,0 +1,115 @@
+.userMessage {
+    width:  379px;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #EBEDEC;
+}
+
+.userMessHead {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: -30px;
+}
+
+
+.userMessHead img {
+    width: 24px;
+    height: 24px;
+}
+ 
+.userMessHead h4 {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.userText {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #01CD98;
+}
+
+.userTools {
+    display: flex;
+    align-items: center;
+}
+
+.userTools img{
+    width: 16px;
+    height: 16px;
+    padding-right: 8px;
+}
+
+.userTools p {
+    padding-right: 24px;
+    font-family: SF Pro Rounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616161;
+}
+
+
+/* AI */
+
+.aiRespond {
+    width:  379px;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #EBEDEC;
+}
+
+
+.aiMessHead {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: -30px;
+}
+
+.aiMessHead img {
+    width: 24px;
+    height: 24px;
+}
+
+.aiMessHead h4 {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;   
+}
+
+.aiText {
+    font-family: SF Pro Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}

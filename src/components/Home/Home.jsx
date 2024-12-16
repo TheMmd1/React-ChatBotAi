@@ -8,6 +8,7 @@ import iconChat from "../../assets/Vector (8).png";
 import iconArchived from "../../assets/Frame 11678 (1).png";
 import iconImages from "../../assets/Frame 11678 (2).png";
 import Topic from '../Topic/Topic';
+import { NavLink } from 'react-router';
 
 
 const Home = () => {
@@ -17,7 +18,9 @@ const Home = () => {
             <h1>Start a new chat <br /> with</h1>
             <img src={logo} alt="logo" />
             <h2>Chat bot AI</h2>
-            <Btn ClassCss="btn-g" val = "+ New Topic" />      
+            <NavLink to={"/Internal"}>            
+              <Btn ClassCss="btn-g" val = "+ New Topic" />
+            </NavLink>      
       </div>
       <div className="history">
         <h3>History</h3>

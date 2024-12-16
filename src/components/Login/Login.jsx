@@ -20,7 +20,7 @@ const Login = () => {
           <Input  type="password" placeholder="Password"/>
           <a>Forgot Password?</a>
           <NavLink to={'/Home'}>  
-                   <Btn ClassCss = "btn-g" val="Login" />
+            <Btn ClassCss = "btn-g" val="Login" />
           </NavLink>
           <p>Or login with</p>
         </div>
